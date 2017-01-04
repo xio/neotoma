@@ -1,11 +1,16 @@
+%% -*- mode: erlang; erlang-indent-level: 4; indent-tabs-mode: nil -*-
 {application, neotoma,
- [
-  {description, "PEG/Packrat toolkit and parser-generator."},
-  {vsn, "1.7.4"},
-  {registered, []},
-  {applications, [kernel, stdlib]},
-  {contributors, ["Sean Cribbs"]},
-  {licenses, ["MIT"]},
-  {links, [{"Github", "https://github.com/seancribbs/neotoma"}]}
- ]
-}.
+[
+    {description,   "PEG/Packrat toolkit and parser-generator."},
+    {vsn,           "git"},
+    {registered,    []},
+    {applications,  [kernel, stdlib]},
+    {env,           []},
+    {modules,       []},
+    {contributors,  ["Basho Technologies, Inc.", "Sean Cribbs"]},
+    {licenses,      ["Apache", "MIT"]},
+    {links,         [
+        {"Github",  "https://github.com/basho/neotoma"},
+        {"Github",  "https://github.com/seancribbs/neotoma"}
+    ]}
+]}.
