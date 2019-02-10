@@ -1,6 +1,6 @@
 {application, neotoma,
  [
-  {description, "PEG/Packrat toolkit and parser-generator."},
+  {description, "PEG parser-generator."},
   {vsn, "1.7.4"},
   {registered, []},
   {applications, [kernel, stdlib]},
